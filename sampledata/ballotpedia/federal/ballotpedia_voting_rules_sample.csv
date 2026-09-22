@@ -1,0 +1,67 @@
+election_date,state,district_type,election_type,election_description,vbm_inperson_request_deadline,vbm_online_request_deadline,vbm_mail_request_deadline,vbm_mail_request_deadline_type,vbm_inperson_return_deadline,vbm_mail_return_deadline,vbm_mail_return_deadline_type,types_of_voter_id_accepted,voter_id_required_for_all,voter_id_source_english,voter_id_source_spanish,required_materials,inperson_deadline,mail_deadline,mail_registration_deadline_type,online_deadline,election_day_registration,registration_status_url_english,registration_status_url_spanish,register_online_url_english,register_online_url_spanish,early_voting_start_date,early_voting_end_date,poll_times,voting_location_url_english,voting_location_url_spanish,voter_info_url_english,voter_info_url_spanish
+2024-11-05,NJ,State,General,New Jersey statewide general election,2024-11-04,,2024-10-29,Received,2024-11-05,2024-11-05,Postmarked,"New Jersey driver's license;
+Military or other government ID;
+Student or job ID;
+Store membership card;
+United States Passport;
+Bank statement;
+Car registration;
+Government check or document;
+Non-photo NJ driver's license;
+Rent receipt;
+Sample Ballot;
+Utility bill;
+Any other official document",,https://www.nj.gov/state/elections/vote-faq.shtml,https://www.nj.gov/state/elections/vote-faq.shtml,,2024-10-15,2024-10-15,Postmarked,2024-10-15,,https://voter.svrs.nj.gov/registration-check,https://voter.svrs.nj.gov/registration-check,https://voter.svrs.nj.gov/register,https://voter.svrs.nj.gov/register,2024-10-26,2024-11-03,6:00 a.m. to 8:00 p.m.,https://www.nj.gov/state/elections/vote-polling-location.shtml,https://voter.svrs.nj.gov/polling-place-search,https://nj.gov/state/elections/vote-faq.shtml,https://nj.gov/state/elections/vote-faq.shtml
+2024-11-05,KS,State,General,Kansas statewide general election,2024-10-29,2024-10-29,2024-10-29,Received,2024-11-05,2024-11-05,Postmarked,"Driver’s license or ID card issued by Kansas or another state;
+U.S. Passport;
+U.S. Military ID;
+ID card issued by a Native American tribe;
+Employee badge or ID issued by a government office;
+Student ID card from an accredited postsecondary education institution in Kansas;
+Concealed carry license issued by Kansas or another state;
+Public assistance ID card issued by a government office",true,https://sos.ks.gov/elections/photo-id.html,,Photo ID,2024-10-15,2024-10-15,Postmarked,2024-10-15,,https://myvoteinfo.voteks.org/voterview,,https://www.kdor.ks.gov/Apps/VoterReg,,2024-10-16,2024-11-04,7:00 a.m. to 7:00 p.m.,https://myvoteinfo.voteks.org/VoterView,,https://sos.ks.gov/elections/important-election-dates.html,
+2024-11-05,ID,State,General,Idaho statewide general election,2024-11-01,2024-10-25,2024-10-25,Received,2024-11-05,2024-11-05,Received,"Current Idaho driver’s license or identification card;
+Current U.S. Passport or Federal photo Identification card;
+Current Tribal Identification card;
+Current concealed weapons license issued by a County Sherriff in Idaho",true,https://voteidaho.gov/identification-requirements/,,Photo ID,2024-11-05,2024-10-11,Postmarked,2024-10-11,true,https://elections.sos.idaho.gov/ElectionLink/ElectionLink/VoterSearch.aspx,,https://elections.sos.idaho.gov/ElectionLink/ElectionLink/ApplicationInstructions.aspx,,2024-10-21,2024-11-01,8:00 a.m. to 8:00 p.m.,https://elections.sos.idaho.gov/ElectionLink/ElectionLink/ViewPollingLocation.aspx,,https://voteidaho.gov,
+2024-11-05,ME,State,General,Maine statewide general election,2024-10-31,2024-10-31,2024-10-31,Received,2024-11-05,2024-11-05,Received,,,https://www.maine.gov/sos/cec/elec/voter-info/right.html,,,2024-11-05,2024-10-15,Received,2024-10-15,true,https://www.maine.gov/portal/government/edemocracy/voter_lookup.php,,,,2024-10-06,2024-10-31,Polls close at 8 p.m.,https://www.maine.gov/portal/government/edemocracy/voter_lookup.php,https://www.maine.gov/portal/government/edemocracy/voter_lookup.php,https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html,
+2024-11-05,HI,State,General,Hawaii statewide general election,,,,,2024-11-05,2024-11-05,Received,"Current and valid photo identification; Current utility bill, bank statement, government check, paycheck, or other government document that shows your name and address",,https://elections.hawaii.gov/wp-content/uploads/Voter-Registration-and-Permanent-Absentee-Application_Form-Fillable.pdf,,,2024-11-05,2024-10-28,Postmarked,2024-11-05,true,https://olvr.hawaii.gov/Default.aspx?redir=1,,https://olvr.hawaii.gov/Default.aspx?redir=1,,2024-10-22,2024-11-05,7:00 a.m. to 7:00 p.m.,https://elections.hawaii.gov/resources/county-election-divisions/,,https://elections.hawaii.gov/register-to-vote/registration/,
+2024-11-05,UT,State,General,Utah statewide general election,,,,,2024-11-05,2024-11-04,Postmarked,"valid Utah driver license;
+valid ID card issued by Utah or a branch, department, or agency of the United States;
+valid Utah permit to carry a concealed weapon;
+valid U.S. passport; or
+valid U.S. military identification card;
+valid tribal identification card;
+Bureau of Indian Affairs card; or
+a tribal treaty card",true,https://law.justia.com/codes/utah/2022/title-20a/chapter-1/part-1/section-102/,,Non-photo ID,2024-11-05,2024-10-25,Received,2024-10-25,true,https://votesearch.utah.gov/voter-search/search/search-by-voter/voter-info,,https://vote.utah.gov/register-to-vote-or-update-your-voter-registration/,,2024-10-22,2024-11-01,7:00 a.m. to 8:00 p.m.,https://votesearch.utah.gov/voter-search/search/search-by-address/how-and-where-can-i-vote,,https://vote.utah.gov/,
+2024-11-05,DE,State,General,Delaware statewide general election,2024-11-04,2024-11-01,2024-11-01,Received,2024-11-05,2024-11-05,Received,"Delaware driver’s license; Delaware ID card; U.S. passport; Signed polling place card; Signed social security card; Signed vehicle registration; Signed credit card with photo; Copy of utility bill; Bank statement; Government check, paycheck, or other government document with address",true,https://delaware.gov/guides/voting-in-delaware/,,Non-photo ID,2024-10-12,2024-10-12,Postmarked,2024-10-12,,https://ivote.de.gov/VoterView,,https://ivote.de.gov/VoterView/registrant/newregistrant,,2024-10-25,2024-11-03,7:00 a.m. to 8:00 p.m.,https://elections.delaware.gov/voter/votereg.shtml,,https://elections.delaware.gov/voter/votereg.shtml,
+2024-11-05,VA,State,General,Virginia statewide general election,2024-10-25,2024-10-25,2024-10-25,Received,2024-11-05,2024-11-05,Postmarked,"Virginia driver's license or DMV-issued ID card;
+Valid employee ID, containing a photo, issued by the voter's employer in ordinary course of business;
+U.S. military ID;
+Valid student ID, containing a photo, issued by any public or private school college, or university;
+Valid student ID issued by a public or private school high school, college, or university in Virginia (with or without a photo);
+Valid U.S. passport or passport card;
+ID card issued by the federal government or a Virginia state or local authority;
+Voter ID card issued by the department of elections;
+Voter confirmation documents;
+Valid tribal enrollment or ID issued by one of the 11 tribes recognized in Virginia;
+Government nursing home resident ID;
+Any other current government document containing the name and address of the voter;
+Signed ID Confirmation Statement",true,https://www.elections.virginia.gov/media/formswarehouse/voter-id/outreach-materials/documents/Voter-Identification-Chart---Revised-10.2022.pdf,,Non-photo ID,2024-11-05,2024-10-15,Postmarked,2024-10-15,true,https://vote.elections.virginia.gov/VoterInformation/Lookup/status,https://vote.elections.virginia.gov/VoterInformation/Lookup/status,https://vote.elections.virginia.gov/Registration/DmvLookup,https://vote.elections.virginia.gov/Registration/DmvLookup,2024-09-20,2024-11-02,6:00 a.m. to 7:00 p.m.,https://www.elections.virginia.gov/citizen-portal/index.html,,https://www.elections.virginia.gov/index.html,https://www.elections.virginia.gov/index.html#
+2024-11-05,MS,State,General,Mississippi statewide general election,,,,,2024-11-05,2024-11-05,Postmarked,"Driver's license (including a Digital ID provided by the Mississippi Department of Public Safety);
+Photo ID card issued by a branch, department, or entity of the State of Mississippi;
+United States passport;
+Government employee ID card;
+Firearms license;
+Student photo ID issued by an accredited Mississippi university, college, or community/junior college;
+United States military ID;
+Tribal photo ID;
+Any other photo ID issued by any branch, department, agency or entity of the United States government; or any state government;
+Mississippi Voter Identification Card",true,https://www.sos.ms.gov/voter-id,,Photo ID,2024-10-07,2024-10-07,Postmarked,,,https://www.msegov.com/sos/voter_registration/amiregistered/Search,,,,,,7:00 a.m. to 7:00 p.m.,https://www.sos.ms.gov/elections-voting/polling-place-locator,,https://www.sos.ms.gov/content/documents/elections/Mississippi%20Voter%20Information%20Guide%202022.pdf,
+2024-11-05,PA,State,General,Pennsylvania statewide general election,2024-10-29,2024-10-29,2024-10-29,Received,2024-11-05,2024-11-05,Received,"Pennsylvania driver’s license or PennDOT ID card;
+ID issued by any Commonwealth agency;
+ID issued by the U.S. Government;
+U.S. passport;
+U.S. Armed Forces ID;
+Student ID;
+Employee ID",,https://www.vote.pa.gov/Register-to-Vote/Pages/Voter-ID-for-First-Time-Voters.aspx,,,2024-10-21,2024-10-21,Received,2024-10-21,,https://www.vote.pa.gov/Register-to-Vote/Pages/Check-Your-Voter-Registration-Status.aspx,,https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx,https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx,Varies,2024-10-29,7:00 a.m. to 8:00 p.m.,https://www.pavoterservices.pa.gov/Pages/PollingPlaceInfo.aspx,,https://www.vote.pa.gov/Voting-in-PA/Pages/default.aspx,
