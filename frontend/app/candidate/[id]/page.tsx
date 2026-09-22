@@ -26,10 +26,12 @@ import { CampaignFinanceCard } from '@/components/CampaignFinanceCard';
 import { OfficialStatementsCard } from '@/components/OfficialStatementsCard';
 import { PublicActionsCard } from '@/components/PublicActionsCard';
 import { TrustSourcesCard } from '@/components/TrustSourcesCard';
+import { ElectionsBanner } from '@/components/ElectionsBanner';
 import { AiSidePanel } from '@/components/AiSidePanel';
 
 const NAV_SECTIONS = [
   { id: 'overview', label: 'Overview', icon: User },
+  { id: 'deadlines', label: 'Voting Deadlines', icon: Calendar },
   { id: 'biography', label: 'Biography', icon: GraduationCap },
   { id: 'timeline', label: 'Timeline', icon: Calendar },
   { id: 'statements', label: 'Statements', icon: Quote },
@@ -198,6 +200,19 @@ export default function CandidateDashboardPage() {
         {/* Main Content Area: Structured Cards */}
         <main className="lg:col-span-9 space-y-8">
           <CandidateOverviewCard candidate={candidate} />
+          <div id="deadlines">
+            <ElectionsBanner
+              initialState={
+                candidate.office.includes('Washington')
+                  ? 'WA'
+                  : candidate.office.includes('New Jersey')
+                  ? 'NJ'
+                  : candidate.office.includes('California')
+                  ? 'CA'
+                  : 'WA'
+              }
+            />
+          </div>
           <BiographyCard candidate={candidate} />
           <TimelineCard timeline={candidate.timeline} />
           <OfficialStatementsCard statements={candidate.officialStatements} />

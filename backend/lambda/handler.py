@@ -14,6 +14,7 @@ from typing import Dict, Any
 
 from data_service import data_service
 from bedrock_service import bedrock_service
+import democracy_works_service
 
 CORS_HEADERS = {
     "Access-Control-Allow-Origin": "*",
@@ -79,6 +80,20 @@ def lambda_handler(event: Dict[str, Any], context: Any) -> Dict[str, Any]:
         # Route: GET /topics
         if raw_path.startswith("/topics") and http_method == "GET":
             return make_response(200, data_service.get_all_topics())
+
+        # Route: GET /elections (Democracy Works Elections API)
+        if raw_path.startswith("/elections") and http_method == "GET":
+            state = query_params.get("state")
+            ocd_id = query_params.get("ocd_id") or query_params.get("ocdId")
+            elections_data = democracy_works_service.get_elections(state=state, ocd_id=ocd_id)
+            return make_response(200, elections_data)
+
+        # Route: GET /authorities (Democracy Works Authority Directory)
+        if raw_path.startswith("/authorities") and http_method == "GET":
+            state = query_params.get("state")
+            ocd_id = query_params.get("ocd_id") or query_params.get("ocdId")
+            authorities_data = democracy_works_service.get_authorities(state=state, ocd_id=ocd_id)
+            return make_response(200, authorities_data)
 
         # Route: POST /ask
         if raw_path.startswith("/ask") and http_method == "POST":

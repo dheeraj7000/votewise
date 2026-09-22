@@ -20,6 +20,7 @@ import {
 import { SearchBar } from '@/components/SearchBar';
 import { VerificationBadge } from '@/components/VerificationBadge';
 import { AiSidePanel } from '@/components/AiSidePanel';
+import { ElectionsBanner } from '@/components/ElectionsBanner';
 import { searchElection } from '@/services/api';
 import { SearchResultItem, ElectionTopic } from '@/types/election';
 
@@ -108,7 +109,10 @@ export default function LandingPage() {
       </section>
 
       {/* Main Content Grid */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+        {/* Democracy Works Elections & Deadlines Banner */}
+        <ElectionsBanner initialState="WA" />
+
         {/* Candidates Section */}
         {(activeCategory === 'all' || activeCategory === 'candidates') && (
           <section className="space-y-4">

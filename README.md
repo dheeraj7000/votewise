@@ -21,7 +21,12 @@
    - Strict 3-tier source hierarchy (Tier 1: Official Government, Tier 2: Nonpartisan Fact Checkers, Tier 3: Verified Consensus Sources).
    - Every single card, quote, vote, and timeline milestone displays full source attribution, publishing date, verification level, and a link to the original document.
 
-4. **Civic Accessibility Engine**:
+4. **Democracy Works Elections API Integration**:
+   - Integrated with the **Democracy Works Elections API (v2)** (`https://www.democracy.works/elections-api`) for verified election dates, voter registration deadlines (online, mail, in-person), early voting windows, vote-by-mail ballot postmark rules, and official state election authority contact portals.
+   - Live query support via `x-api-key` header with seamless fallback to verified state authority records.
+   - Endpoints: `GET /elections` and `GET /authorities` mapped to Open Civic Data IDs (OCD-IDs) across Washington, New Jersey, and California.
+
+5. **Civic Accessibility Engine**:
    - Large Text Mode toggle (enhanced typography scale).
    - High Contrast Mode toggle (accessible dark navy and high-contrast colorways).
    - Full keyboard navigation and visible focus rings.

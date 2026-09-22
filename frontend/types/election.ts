@@ -208,3 +208,73 @@ export interface AskResponse {
   verified: boolean;
   notice?: string;
 }
+
+export interface ElectionInfo {
+  id: string;
+  date: string;
+  state: string;
+  stateName: string;
+  description: string;
+  electionType: string;
+  ocdDivisionId: string;
+  registrationDeadlines: {
+    online?: string;
+    mail?: string;
+    inPerson?: string;
+    registrationStatusUrl?: string;
+  };
+  earlyVoting: {
+    startDate?: string;
+    endDate?: string;
+    votingMethod?: string;
+  };
+  ballotDeadlines: {
+    mailRequestDeadline?: string;
+    inPersonRequestDeadline?: string;
+    mailBallotMailingDate?: string;
+    returnPostmarkDeadline?: string;
+    dropBoxDeadline?: string;
+  };
+  pollingTimes?: string;
+  source: SourceReference;
+}
+
+export interface ElectionAuthority {
+  id: string;
+  state: string;
+  stateName: string;
+  ocdDivisionId: string;
+  agencyName: string;
+  officialWebsite: string;
+  phone?: string;
+  email?: string;
+  address?: string;
+  portalUrls?: {
+    voterPortal?: string;
+    registerOnline?: string;
+    ballotDropBoxLocator?: string;
+    pollingPlaceLocator?: string;
+  };
+  votingMethodsAccepted?: string[];
+  voterIdRules?: string;
+  source: SourceReference;
+}
+
+export interface ElectionsResponse {
+  source: string;
+  provider?: string;
+  documentation?: string;
+  tier?: TrustTierLevel;
+  totalElections: number;
+  elections: ElectionInfo[];
+}
+
+export interface AuthoritiesResponse {
+  source: string;
+  provider?: string;
+  documentation?: string;
+  tier?: TrustTierLevel;
+  totalAuthorities: number;
+  authorities: ElectionAuthority[];
+}
+

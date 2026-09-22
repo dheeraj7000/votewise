@@ -1,4 +1,4 @@
-import { Candidate, BallotMeasure, ElectionTopic, SearchResponse, AskResponse } from '@/types/election';
+import { Candidate, BallotMeasure, ElectionTopic, SearchResponse, AskResponse, ElectionsResponse, AuthoritiesResponse } from '@/types/election';
 
 const BASE_API_URL = process.env.NEXT_PUBLIC_API_URL || '';
 
@@ -51,6 +51,24 @@ export async function askBedrock(question: string, candidateId?: string): Promis
   });
   if (!res.ok) {
     throw new Error(`Ask query failed: ${res.statusText}`);
+  }
+  return res.json();
+}
+
+export async function getElections(state?: string): Promise<ElectionsResponse> {
+  const url = `${BASE_API_URL}/api/elections${state ? `?state=${encodeURIComponent(state)}` : ''}`;
+  const res = await fetch(url, { headers: { 'Accept': 'application/json' } });
+  if (!res.ok) {
+    throw new Error(`Failed to fetch elections from Democracy Works: ${res.statusText}`);
+  }
+  return res.json();
+}
+
+export async function getAuthorities(state?: string): Promise<AuthoritiesResponse> {
+  const url = `${BASE_API_URL}/api/authorities${state ? `?state=${encodeURIComponent(state)}` : ''}`;
+  const res = await fetch(url, { headers: { 'Accept': 'application/json' } });
+  if (!res.ok) {
+    throw new Error(`Failed to fetch election authorities from Democracy Works: ${res.statusText}`);
   }
   return res.json();
 }

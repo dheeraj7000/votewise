@@ -16,7 +16,7 @@ Instead, every piece of information displays **verification levels and source ti
 
 | Tier | Category | Definition & Criteria | Example Sources |
 | :--- | :--- | :--- | :--- |
-| **Tier 1** | **Government & Official** | Direct legal records, government depository records, certified election rolls, statutory filings, and legislative votes. | `Congress.gov`, `Senate.gov`, `FEC.gov`, `PDC.wa.gov`, `SOS.wa.gov`, `Courts.gov` |
+| **Tier 1** | **Government & Official Partners** | Direct legal records, government depository records, certified election rolls, statutory filings, legislative votes, and authoritative election dates/deadlines via accredited partners. | `Democracy Works Elections API`, `Congress.gov`, `Senate.gov`, `FEC.gov`, `PDC.wa.gov`, `SOS.wa.gov`, `Courts.gov` |
 | **Tier 2** | **Verified Fact-Check** | Nonpartisan investigative organizations complying with the International Fact-Checking Network (IFCN) Code of Principles. | `FactCheck.org`, `PolitiFact`, `Ballotpedia Verified Dossiers` |
 | **Tier 3** | **Consensus & Institutional** | Accredited academic alumni registries, peer-reviewed institutional rosters, bar associations, and state licensing boards. | University registrar archives, American Institute of Architects, State Bar Association |
 

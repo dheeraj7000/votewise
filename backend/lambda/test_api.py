@@ -98,5 +98,44 @@ class TestTrustVoteAPI(unittest.TestCase):
         self.assertIn("I don't have enough verified information to answer this question", body["answer"])
         self.assertEqual(len(body["sources"]), 0)
 
+    def test_elections_endpoint(self):
+        event = {
+            "httpMethod": "GET",
+            "rawPath": "/elections"
+        }
+        res = lambda_handler(event, None)
+        self.assertEqual(res["statusCode"], 200)
+        body = json.loads(res["body"])
+        self.assertIn("elections", body)
+        self.assertIn("Democracy Works", body["source"])
+        self.assertGreaterEqual(body["totalElections"], 1)
+
+    def test_elections_state_filter(self):
+        event = {
+            "httpMethod": "GET",
+            "rawPath": "/elections",
+            "queryStringParameters": {"state": "WA"}
+        }
+        res = lambda_handler(event, None)
+        self.assertEqual(res["statusCode"], 200)
+        body = json.loads(res["body"])
+        self.assertEqual(len(body["elections"]), 1)
+        self.assertEqual(body["elections"][0]["state"], "WA")
+        self.assertIn("registrationDeadlines", body["elections"][0])
+
+    def test_authorities_endpoint(self):
+        event = {
+            "httpMethod": "GET",
+            "rawPath": "/authorities",
+            "queryStringParameters": {"state": "WA"}
+        }
+        res = lambda_handler(event, None)
+        self.assertEqual(res["statusCode"], 200)
+        body = json.loads(res["body"])
+        self.assertIn("authorities", body)
+        self.assertEqual(len(body["authorities"]), 1)
+        self.assertEqual(body["authorities"][0]["state"], "WA")
+        self.assertIn("portalUrls", body["authorities"][0])
+
 if __name__ == "__main__":
     unittest.main()
