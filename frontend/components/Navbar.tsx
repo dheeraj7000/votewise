@@ -1,7 +1,6 @@
 'use client';
 
 import React from 'react';
-import Link from 'next/link';
 import { ShieldCheck, Vote } from 'lucide-react';
 import { AccessibilityToolbar } from './AccessibilityToolbar';
 import { SearchBar } from './SearchBar';
@@ -25,7 +24,7 @@ export function Navbar() {
       {/* Main Navbar */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
         {/* Brand */}
-        <Link href="/" className="flex items-center gap-2.5 shrink-0 group">
+        <a href="/" className="flex items-center gap-2.5 shrink-0 group">
           <div className="w-9 h-9 rounded-lg bg-[#0F2942] text-white flex items-center justify-center font-bold shadow-xs group-hover:bg-blue-900 transition-colors">
             <Vote className="w-5 h-5 text-emerald-400" />
           </div>
@@ -37,7 +36,7 @@ export function Navbar() {
               Verified Election Intelligence
             </span>
           </div>
-        </Link>
+        </a>
 
         {/* Global Search */}
         <div className="hidden md:block flex-1 max-w-lg mx-4">
@@ -46,21 +45,21 @@ export function Navbar() {
 
         {/* Right Actions & Accessibility */}
         <div className="flex items-center gap-3">
-          <Link
+          <a
             href="/#ballot-lookup"
             className="hidden sm:inline-flex items-center gap-1.5 text-xs font-bold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 border border-emerald-300 transition-colors py-1.5 px-2.5 rounded-md"
           >
             <Vote className="w-3.5 h-3.5 text-emerald-700" />
             <span>My Ballot</span>
-          </Link>
+          </a>
 
-          <Link
+          <a
             href="/#trust-model"
             className="hidden lg:inline-flex items-center gap-1.5 text-xs font-semibold text-slate-700 hover:text-blue-700 transition-colors py-1.5 px-2.5 rounded-md hover:bg-slate-100"
           >
             <ShieldCheck className="w-4 h-4 text-emerald-600" />
             <span>Trust Model</span>
-          </Link>
+          </a>
 
           <AccessibilityToolbar />
         </div>

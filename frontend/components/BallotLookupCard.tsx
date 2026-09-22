@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import Link from 'next/link';
+
 import {
   MapPin,
   Search,
@@ -288,13 +288,13 @@ export function BallotLookupCard({ className = '' }: Props) {
                           </div>
 
                           {cand.id && !cand.id.includes('-candidate') ? (
-                            <Link
+                            <a
                               href={`/candidate/${cand.id}`}
                               className="text-xs font-semibold text-blue-700 hover:text-blue-900 hover:underline shrink-0 inline-flex items-center gap-0.5"
                             >
                               <span>Profile</span>
                               <ChevronRight className="w-3.5 h-3.5" />
-                            </Link>
+                            </a>
                           ) : (
                             <span className="text-[10px] text-slate-400 font-semibold uppercase shrink-0">
                               Certified
@@ -339,13 +339,13 @@ export function BallotLookupCard({ className = '' }: Props) {
 
                     <div className="pt-3 mt-3 border-t border-slate-200/80 flex items-center justify-between">
                       <span className="text-xs text-slate-500">Includes Official Fiscal Note</span>
-                      <Link
+                      <a
                         href={`/measure/${m.id}`}
                         className="text-xs font-semibold text-blue-700 hover:text-blue-900 hover:underline inline-flex items-center gap-1"
                       >
                         <span>View Breakdown</span>
                         <ChevronRight className="w-3.5 h-3.5" />
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 ))}

@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
+
 import {
   Search,
   User,
@@ -139,7 +139,7 @@ export default function LandingPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {candidates.map((cand) => (
-                <Link
+                <a
                   key={cand.id}
                   href={`/candidate/${cand.id}`}
                   className="group bg-white rounded-xl border border-slate-200 shadow-xs hover:shadow-md hover:border-slate-300 transition-all p-5 flex flex-col justify-between"
@@ -181,7 +181,7 @@ export default function LandingPage() {
                       </span>
                     </div>
                   </div>
-                </Link>
+                </a>
               ))}
             </div>
           </section>
@@ -202,7 +202,7 @@ export default function LandingPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {measures.map((m) => (
-                <Link
+                <a
                   key={m.id}
                   href={`/measure/${m.id}`}
                   className="group bg-white rounded-xl border border-slate-200 shadow-xs hover:shadow-md hover:border-slate-300 transition-all p-6 flex flex-col justify-between"
@@ -231,7 +231,7 @@ export default function LandingPage() {
                       <ChevronRight className="w-3.5 h-3.5" />
                     </span>
                   </div>
-                </Link>
+                </a>
               ))}
             </div>
           </section>

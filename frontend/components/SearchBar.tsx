@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
-import { useRouter } from 'next/navigation';
 import { Search, User, Vote, Tag, ChevronRight, X, Loader2 } from 'lucide-react';
 import { searchElection } from '@/services/api';
 import { SearchResultItem } from '@/types/election';
@@ -17,7 +16,6 @@ export function SearchBar({
   className = '',
   autoFocus = false,
 }: SearchBarProps) {
-  const router = useRouter();
   const [query, setQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -76,11 +74,11 @@ export function SearchBar({
     setIsOpen(false);
     setQuery('');
     if (type === 'candidate') {
-      router.push(`/candidate/${item.id}`);
+      window.location.href = `/candidate/${item.id}`;
     } else if (type === 'measure') {
-      router.push(`/measure/${item.id}`);
+      window.location.href = `/measure/${item.id}`;
     } else if (type === 'topic') {
-      router.push(`/?topic=${item.id}`);
+      window.location.href = `/?topic=${item.id}`;
     }
   };
 
