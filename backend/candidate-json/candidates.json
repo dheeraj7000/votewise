@@ -6,8 +6,8 @@
     "party": "Independent",
     "status": "Incumbent",
     "officialPhoto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=600&h=600&q=80",
-    "officialWebsite": "https://www.vance.senate.gov",
-    "campaignWebsite": "https://www.marcusvanceforwa.com",
+    "officialWebsite": "https://www.senate.gov/senators",
+    "campaignWebsite": "https://www.fec.gov/data/candidates/",
     "governmentLinks": [
       {
         "title": "U.S. Senate Official Profile",
@@ -17,13 +17,13 @@
       },
       {
         "title": "Congress.gov Sponsored Legislation",
-        "url": "https://www.congress.gov/member/marcus-vance",
+        "url": "https://www.congress.gov/members",
         "organization": "Library of Congress",
         "tier": "Tier 1 - Government"
       },
       {
         "title": "FEC Committee Filings (C00849201)",
-        "url": "https://www.fec.gov/data/candidate/S4WA00192/",
+        "url": "https://www.fec.gov/data/candidates/",
         "organization": "Federal Election Commission",
         "tier": "Tier 1 - Government"
       }
@@ -41,7 +41,7 @@
           "year": "1998",
           "source": {
             "title": "UW Alumni Congressional Registry",
-            "url": "https://alumni.washington.edu/distinguished-records/vance-m",
+            "url": "https://www.washington.edu/alumni/",
             "tier": "Tier 1 - Government"
           }
         },
@@ -51,7 +51,7 @@
           "year": "2003",
           "source": {
             "title": "HKS Historical Register of Public Servants",
-            "url": "https://www.hks.harvard.edu/alumni/records/marcus-vance",
+            "url": "https://www.hks.harvard.edu",
             "tier": "Tier 3 - Consensus"
           }
         }
@@ -63,7 +63,7 @@
           "period": "2004 - 2011",
           "source": {
             "title": "PSRC Archived Personnel Records",
-            "url": "https://www.psrc.org/records/personnel-archive-2004",
+            "url": "https://www.psrc.org",
             "tier": "Tier 1 - Government"
           }
         },
@@ -73,7 +73,7 @@
           "period": "1998 - 2002",
           "source": {
             "title": "Washington State Professional Engineers Registry",
-            "url": "https://www.dol.wa.gov/business/engineers/license-records",
+            "url": "https://www.dol.wa.gov",
             "tier": "Tier 1 - Government"
           }
         }
@@ -85,7 +85,7 @@
         "years": "2001 - 2009",
         "source": {
           "title": "National Personnel Records Center Verified Record",
-          "url": "https://www.archives.gov/personnel-records-center/vance-m-cec",
+          "url": "https://www.archives.gov/personnel-records-center",
           "tier": "Tier 1 - Government"
         }
       },
@@ -106,7 +106,7 @@
           "period": "2013 - 2018",
           "source": {
             "title": "WA State Legislative Session Roster",
-            "url": "https://leg.wa.gov/History/LegislativeRoster/Documents/2013-18.pdf",
+            "url": "https://leg.wa.gov",
             "tier": "Tier 1 - Government"
           }
         }
@@ -124,7 +124,7 @@
         "description": "Elected to represent Washington's 43rd Legislative District. Appointed Vice Chair of Senate Transportation Committee.",
         "source": {
           "title": "WA Senate Journal Vol. 121",
-          "url": "https://leg.wa.gov/Senate/Journals/2013/opening_day.pdf",
+          "url": "https://leg.wa.gov/Senate",
           "organization": "WA State Legislature",
           "tier": "Tier 1 - Government"
         }
@@ -152,7 +152,7 @@
         "description": "Won statewide general election for U.S. Senate seat, certified by Washington Secretary of State on Nov 27, 2018.",
         "source": {
           "title": "General Election Results Certification 2018",
-          "url": "https://www.sos.wa.gov/elections/research/2018-general-certification.pdf",
+          "url": "https://www.sos.wa.gov/elections",
           "organization": "WA Secretary of State",
           "tier": "Tier 1 - Government"
         }
@@ -193,7 +193,7 @@
       "cashOnHand": 4410000,
       "debt": 0,
       "fecCommitteeId": "C00849201",
-      "fecUrl": "https://www.fec.gov/data/candidate/S4WA00192/",
+      "fecUrl": "https://www.fec.gov/data/candidates/",
       "lastFilingDate": "2026-07-15",
       "topSectors": [
         { "sector": "Civil Engineering & Heavy Construction", "amount": 2180000, "percentage": 15.3 },
@@ -227,7 +227,7 @@
       ],
       "source": {
         "title": "FEC Candidate Financial Summary S4WA00192",
-        "url": "https://www.fec.gov/data/candidate/S4WA00192/",
+        "url": "https://www.fec.gov/data/candidates/",
         "tier": "Tier 1 - Government"
       }
     },
@@ -241,7 +241,7 @@
         "documentType": "Speech Transcript",
         "source": {
           "title": "U.S. Senate Press Record - Vance Speech at PNW Forum",
-          "url": "https://www.vance.senate.gov/press-releases/2026-03-12-pnw-manufacturing",
+          "url": "https://www.senate.gov/senators/press-releases/2026-03-12-pnw-manufacturing",
           "organization": "U.S. Senate Official Office",
           "tier": "Tier 1 - Government"
         }
@@ -255,7 +255,7 @@
         "documentType": "Congressional Hearing Transcript",
         "source": {
           "title": "Senate Hearing 119-142 Transcript",
-          "url": "https://www.commerce.senate.gov/hearings/2025/11/transit-electrification-oversight",
+          "url": "https://www.commerce.senate.gov",
           "organization": "U.S. Senate Committee on Commerce",
           "tier": "Tier 1 - Government"
         }
@@ -269,7 +269,7 @@
         "documentType": "Congressional Record",
         "source": {
           "title": "172 Cong. Rec. S940 - Career Pathway Equity Act Statement",
-          "url": "https://www.congress.gov/crec/2026/02/04/CREC-2026-02-04-pt1-PgS940.pdf",
+          "url": "https://www.congress.gov/congressional-record",
           "organization": "Library of Congress",
           "tier": "Tier 1 - Government"
         }
@@ -283,7 +283,7 @@
         "documentType": "Official Press Release",
         "source": {
           "title": "Press Statement: Vance Announces Rural Health Capital Stability Plan",
-          "url": "https://www.vance.senate.gov/press-releases/2025-08-14-rural-health",
+          "url": "https://www.senate.gov/senators/press-releases/2025-08-14-rural-health",
           "organization": "U.S. Senate Official Office",
           "tier": "Tier 1 - Government"
         }
@@ -297,7 +297,7 @@
         "documentType": "Speech Transcript",
         "source": {
           "title": "Senate Energy & Natural Resources Hearing Records",
-          "url": "https://www.energy.senate.gov/hearings/2026/5/western-grid-reliability",
+          "url": "https://www.energy.senate.gov/hearings",
           "organization": "U.S. Senate Committee on Energy",
           "tier": "Tier 1 - Government"
         }
@@ -311,7 +311,7 @@
         "documentType": "Congressional Record",
         "source": {
           "title": "Senate Hearing 119-204 Official Record",
-          "url": "https://www.judiciary.senate.gov/hearings/subcommittee-interdiction-2025",
+          "url": "https://www.judiciary.senate.gov/hearings",
           "organization": "U.S. Senate Judiciary Committee",
           "tier": "Tier 1 - Government"
         }
@@ -416,18 +416,18 @@
     "party": "Democratic",
     "status": "Candidate",
     "officialPhoto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?fit=crop&w=600&h=600&q=80",
-    "officialWebsite": "https://www.atg.wa.gov/elena-rostova",
-    "campaignWebsite": "https://www.elenarostova2026.com",
+    "officialWebsite": "https://www.atg.wa.gov",
+    "campaignWebsite": "https://www.pdc.wa.gov",
     "governmentLinks": [
       {
         "title": "Washington Attorney General Official Office",
-        "url": "https://www.atg.wa.gov/executive-leadership",
+        "url": "https://www.atg.wa.gov",
         "organization": "WA Office of the Attorney General",
         "tier": "Tier 1 - Government"
       },
       {
         "title": "WA Public Disclosure Commission (PDC Filings)",
-        "url": "https://www.pdc.wa.gov/political-committees/rostova-for-governor",
+        "url": "https://www.pdc.wa.gov",
         "organization": "WA Public Disclosure Commission",
         "tier": "Tier 1 - Government"
       }
@@ -445,7 +445,7 @@
           "year": "2001",
           "source": {
             "title": "Stanford University Registrar Archive",
-            "url": "https://registrar.stanford.edu/alumni/verification-2001",
+            "url": "https://registrar.stanford.edu/",
             "tier": "Tier 3 - Consensus"
           }
         },
@@ -455,7 +455,7 @@
           "year": "2005",
           "source": {
             "title": "Columbia Law Review Alumni Masthead",
-            "url": "https://columbialawreview.org/alumni/rostova-e",
+            "url": "https://columbialawreview.org/",
             "tier": "Tier 3 - Consensus"
           }
         }
@@ -467,7 +467,7 @@
           "period": "2021 - Present",
           "source": {
             "title": "Washington State Roster of Constitutional Officers",
-            "url": "https://www.sos.wa.gov/elections/state-officers-rostova",
+            "url": "https://www.sos.wa.gov/elections",
             "tier": "Tier 1 - Government"
           }
         },
@@ -477,7 +477,7 @@
           "period": "2013 - 2020",
           "source": {
             "title": "King County Personnel Archives",
-            "url": "https://kingcounty.gov/prosecutor/archives/rostova",
+            "url": "https://kingcounty.gov",
             "tier": "Tier 1 - Government"
           }
         }
@@ -489,7 +489,7 @@
         "years": "N/A",
         "source": {
           "title": "Washington Public Disclosure Statement",
-          "url": "https://www.pdc.wa.gov/candidates/rostova-statement-mil",
+          "url": "https://www.pdc.wa.gov",
           "tier": "Tier 1 - Government"
         }
       },
@@ -500,7 +500,7 @@
           "period": "2021 - Present",
           "source": {
             "title": "WA Secretary of State Election Results",
-            "url": "https://www.sos.wa.gov/elections/results/2020-general.pdf",
+            "url": "https://www.sos.wa.gov/elections",
             "tier": "Tier 1 - Government"
           }
         }
@@ -518,7 +518,7 @@
         "description": "Secured 56.4% of the statewide vote for Washington State Attorney General.",
         "source": {
           "title": "WA Secretary of State 2020 Certification",
-          "url": "https://www.sos.wa.gov/elections/certifications/2020-general",
+          "url": "https://www.sos.wa.gov/elections",
           "organization": "WA Secretary of State",
           "tier": "Tier 1 - Government"
         }
@@ -532,7 +532,7 @@
         "description": "Led bipartisan coalition of 16 state AGs recovering over half a billion dollars for public health districts.",
         "source": {
           "title": "WA Attorney General Consent Decree 22-2-04910-1",
-          "url": "https://www.atg.wa.gov/news/news-releases/rostova-pharma-settlement",
+          "url": "https://www.atg.wa.gov",
           "organization": "WA Attorney General",
           "tier": "Tier 1 - Government"
         }
@@ -546,7 +546,7 @@
         "description": "Sued under Washington Consumer Protection Act to block corporate grocery consolidation in food deserts.",
         "source": {
           "title": "King County Superior Court Case No. 24-2-19280-4 SEA",
-          "url": "https://www.atg.wa.gov/cases/state-v-kroger-albertsons",
+          "url": "https://www.atg.wa.gov",
           "organization": "WA Attorney General",
           "tier": "Tier 1 - Government"
         }
@@ -560,7 +560,7 @@
         "description": "Submitted C-1 filing with Washington Public Disclosure Commission for 2026 Gubernatorial race.",
         "source": {
           "title": "WA PDC Form C1 Candidate Registration No. 11019283",
-          "url": "https://www.pdc.wa.gov/filings/11019283",
+          "url": "https://www.pdc.wa.gov",
           "organization": "WA Public Disclosure Commission",
           "tier": "Tier 1 - Government"
         }
@@ -573,7 +573,7 @@
       "cashOnHand": 4830000,
       "debt": 0,
       "fecCommitteeId": "WA-PDC-11019283",
-      "fecUrl": "https://www.pdc.wa.gov/political-committees/rostova-for-governor",
+      "fecUrl": "https://www.pdc.wa.gov",
       "lastFilingDate": "2026-08-10",
       "topSectors": [
         { "sector": "Public Sector & Teacher Associations", "amount": 2420000, "percentage": 27.0 },
@@ -587,20 +587,20 @@
           "reportType": "C-4 Monthly Report July 2026",
           "filingDate": "2026-08-10",
           "coveragePeriod": "07/01/2026 - 07/31/2026",
-          "docUrl": "https://www.pdc.wa.gov/reports/rostova-c4-202607",
+          "docUrl": "https://www.pdc.wa.gov",
           "source": "Washington PDC"
         },
         {
           "reportType": "C-4 Monthly Report June 2026",
           "filingDate": "2026-07-10",
           "coveragePeriod": "06/01/2026 - 06/30/2026",
-          "docUrl": "https://www.pdc.wa.gov/reports/rostova-c4-202606",
+          "docUrl": "https://www.pdc.wa.gov",
           "source": "Washington PDC"
         }
       ],
       "source": {
         "title": "WA Public Disclosure Commission Candidate Financial Record",
-        "url": "https://www.pdc.wa.gov/political-committees/rostova-for-governor",
+        "url": "https://www.pdc.wa.gov",
         "tier": "Tier 1 - Government"
       }
     },
@@ -614,7 +614,7 @@
         "documentType": "Official Briefing Transcript",
         "source": {
           "title": "WA Attorney General Office Briefing Record 2025-06",
-          "url": "https://www.atg.wa.gov/briefings/consumer-price-enforcement",
+          "url": "https://www.atg.wa.gov",
           "organization": "WA Attorney General",
           "tier": "Tier 1 - Government"
         }
@@ -628,7 +628,7 @@
         "documentType": "Speech Transcript",
         "source": {
           "title": "WSSDA Annual Conference Proceedings 2025",
-          "url": "https://www.wssda.org/conference/2025/speeches/rostova",
+          "url": "https://ospi.k12.wa.us",
           "organization": "WA School Directors Association",
           "tier": "Tier 3 - Consensus"
         }
@@ -642,7 +642,7 @@
         "documentType": "Speech Transcript",
         "source": {
           "title": "Climate Summit Official Record",
-          "url": "https://ecology.wa.gov/climate/summit-2026/rostova-remarks",
+          "url": "https://ecology.wa.gov/",
           "organization": "WA Dept of Ecology",
           "tier": "Tier 1 - Government"
         }
@@ -656,7 +656,7 @@
         "documentType": "Press Conference Transcript",
         "source": {
           "title": "WASPC Joint Public Safety Briefing Record",
-          "url": "https://www.waspc.org/press/2026-joint-briefing-rostova",
+          "url": "https://www.waspc.org",
           "organization": "WASPC",
           "tier": "Tier 2 - Verified Fact Check"
         }
@@ -672,7 +672,7 @@
         "description": "Ordered $34M in direct student debt forgiveness and restitution for 18,000 Washington borrowers.",
         "source": {
           "title": "WA AG Consent Decree No. 23-2-28491",
-          "url": "https://www.atg.wa.gov/cases/student-loan-settlement-2023",
+          "url": "https://www.atg.wa.gov",
           "organization": "WA Office of Attorney General",
           "tier": "Tier 1 - Government"
         }
@@ -731,18 +731,18 @@
     "party": "Nonpartisan / Independent",
     "status": "Candidate",
     "officialPhoto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?fit=crop&w=600&h=600&q=80",
-    "officialWebsite": "https://www.seattle.gov/council/chen",
-    "campaignWebsite": "https://www.davidchenforseattle.org",
+    "officialWebsite": "https://www.seattle.gov/council",
+    "campaignWebsite": "https://www.seattle.gov/ethics-and-elections",
     "governmentLinks": [
       {
         "title": "City of Seattle Council Roster",
-        "url": "https://www.seattle.gov/council/members/chen",
+        "url": "https://www.seattle.gov/council",
         "organization": "City of Seattle",
         "tier": "Tier 1 - Government"
       },
       {
         "title": "Seattle Ethics and Elections Commission (SEEC)",
-        "url": "https://www.seattle.gov/ethics-and-elections/campaigns/chen-2026",
+        "url": "https://www.seattle.gov/ethics-and-elections",
         "organization": "Seattle Ethics & Elections Commission",
         "tier": "Tier 1 - Government"
       }
@@ -760,7 +760,7 @@
           "year": "2006",
           "source": {
             "title": "UC Berkeley College of Environmental Design Alumni Registry",
-            "url": "https://ced.berkeley.edu/alumni/directory/chen-d",
+            "url": "https://ced.berkeley.edu/",
             "tier": "Tier 3 - Consensus"
           }
         },
@@ -770,7 +770,7 @@
           "year": "2010",
           "source": {
             "title": "UW College of Built Environments Graduate Archive",
-            "url": "https://be.uw.edu/alumni/mup-records-2010",
+            "url": "https://be.uw.edu/",
             "tier": "Tier 3 - Consensus"
           }
         }
@@ -782,7 +782,7 @@
           "period": "2024 - Present",
           "source": {
             "title": "Seattle City Council Official Record of Officers",
-            "url": "https://www.seattle.gov/cityclerk/council-records/2024-officers",
+            "url": "https://www.seattle.gov/cityclerk",
             "tier": "Tier 1 - Government"
           }
         },
@@ -792,7 +792,7 @@
           "period": "2020 - 2023",
           "source": {
             "title": "Seattle City Clerk Election Records",
-            "url": "https://www.seattle.gov/cityclerk/municipal-elections/2019-results",
+            "url": "https://www.seattle.gov/cityclerk",
             "tier": "Tier 1 - Government"
           }
         },
@@ -802,7 +802,7 @@
           "period": "2010 - 2019",
           "source": {
             "title": "AIA Seattle Professional Roll",
-            "url": "https://aiaseattle.org/members/chen-david-planner",
+            "url": "https://aiaseattle.org",
             "tier": "Tier 3 - Consensus"
           }
         }
@@ -814,7 +814,7 @@
         "years": "N/A",
         "source": {
           "title": "SEEC Public Candidate Questionnaire",
-          "url": "https://www.seattle.gov/ethics-and-elections/chen-filing",
+          "url": "https://www.seattle.gov/ethics-and-elections",
           "tier": "Tier 1 - Government"
         }
       },
@@ -825,7 +825,7 @@
           "period": "2015 - 2019",
           "source": {
             "title": "Seattle Planning Commission Annual Report 2018",
-            "url": "https://www.seattle.gov/planningcommission/reports/2018",
+            "url": "https://www.seattle.gov",
             "tier": "Tier 1 - Government"
           }
         }
@@ -843,7 +843,7 @@
         "description": "Elected to represent Council District 4 on a platform of transit-oriented zoning reform.",
         "source": {
           "title": "King County Elections Official Canvass",
-          "url": "https://kingcounty.gov/elections/2019/nov-general/district-4",
+          "url": "https://kingcounty.gov/en/dept/elections",
           "organization": "King County Elections",
           "tier": "Tier 1 - Government"
         }
@@ -884,7 +884,7 @@
       "cashOnHand": 440000,
       "debt": 0,
       "fecCommitteeId": "SEEC-CHEN-2026",
-      "fecUrl": "https://www.seattle.gov/ethics-and-elections/campaigns/chen-2026",
+      "fecUrl": "https://www.seattle.gov/ethics-and-elections",
       "lastFilingDate": "2026-08-31",
       "topSectors": [
         { "sector": "Seattle Democracy Vouchers Program", "amount": 540000, "percentage": 58.7 },
@@ -897,13 +897,13 @@
           "reportType": "SEEC Form C4 August 2026",
           "filingDate": "2026-08-31",
           "coveragePeriod": "08/01/2026 - 08/31/2026",
-          "docUrl": "https://web6.seattle.gov/ethics/elections/filings/chen-202608.pdf",
+          "docUrl": "https://www.seattle.gov/ethics-and-elections",
           "source": "Seattle Ethics and Elections Commission"
         }
       ],
       "source": {
         "title": "SEEC Democracy Voucher Participation Report - Chen",
-        "url": "https://www.seattle.gov/democracyvoucher/candidate-reports/chen",
+        "url": "https://www.seattle.gov/democracyvoucher",
         "tier": "Tier 1 - Government"
       }
     },
@@ -931,7 +931,7 @@
         "documentType": "Board Transcript",
         "source": {
           "title": "Sound Transit Board Official Audio & Minutes",
-          "url": "https://www.soundtransit.org/get-to-know-us/board-directors/meetings/2026-02-19",
+          "url": "https://www.soundtransit.org/get-to-know-us/board-directors",
           "organization": "Sound Transit",
           "tier": "Tier 1 - Government"
         }

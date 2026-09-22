@@ -139,7 +139,7 @@ FALLBACK_AUTHORITIES = [
         "portalUrls": {
             "voterPortal": "https://voter.votewa.gov",
             "registerOnline": "https://olvr.votewa.gov",
-            "ballotDropBoxLocator": "https://www.sos.wa.gov/elections/voters/ballot-drop-box-locations"
+            "ballotDropBoxLocator": "https://voter.votewa.gov"
         },
         "votingMethodsAccepted": [
             "Mail-in ballot sent to all active registered voters",
