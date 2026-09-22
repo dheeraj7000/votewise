@@ -118,6 +118,24 @@ def lambda_handler(event: Dict[str, Any], context: Any) -> Dict[str, Any]:
             authorities_data = democracy_works_service.get_authorities(state=state, ocd_id=ocd_id)
             return make_response(200, authorities_data)
 
+        # Route: GET or POST /ballot (Address-to-Ballot Ephemeral Lookup)
+        if raw_path.startswith("/ballot") and http_method in ["GET", "POST"]:
+            address = ""
+            if http_method == "GET":
+                address = query_params.get("address", "")
+            else:
+                body_raw = event.get("body", "{}")
+                if event.get("isBase64Encoded", False):
+                    import base64
+                    body_raw = base64.b64decode(body_raw).decode("utf-8")
+                try:
+                    body = json.loads(body_raw) if isinstance(body_raw, str) else body_raw
+                    address = body.get("address", "")
+                except Exception:
+                    address = ""
+            ballot_data = democracy_works_service.get_ballot_by_address(address)
+            return make_response(200, ballot_data)
+
         # Route: POST /ask
         if raw_path.startswith("/ask") and http_method == "POST":
             body_raw = event.get("body", "{}")

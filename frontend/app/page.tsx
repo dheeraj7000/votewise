@@ -21,6 +21,7 @@ import { SearchBar } from '@/components/SearchBar';
 import { VerificationBadge } from '@/components/VerificationBadge';
 import { AiSidePanel } from '@/components/AiSidePanel';
 import { ElectionsBanner } from '@/components/ElectionsBanner';
+import { BallotLookupCard } from '@/components/BallotLookupCard';
 import { searchElection } from '@/services/api';
 import { SearchResultItem, ElectionTopic } from '@/types/election';
 
@@ -103,6 +104,13 @@ export default function LandingPage() {
               >
                 Search Topics ({topics.length})
               </button>
+              <a
+                href="#ballot-lookup"
+                className="px-3 py-1.5 rounded-md border bg-emerald-50 border-emerald-300 text-emerald-900 font-bold hover:bg-emerald-100 transition-colors flex items-center gap-1.5 shadow-2xs"
+              >
+                <Vote className="w-3.5 h-3.5 text-emerald-700" />
+                <span>What's On My Ballot?</span>
+              </a>
             </div>
           </div>
         </div>
@@ -110,6 +118,9 @@ export default function LandingPage() {
 
       {/* Main Content Grid */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+        {/* What's On My Ballot? Address Lookup Card */}
+        <BallotLookupCard />
+
         {/* Democracy Works Elections & Deadlines Banner */}
         <ElectionsBanner initialState="WA" />
 

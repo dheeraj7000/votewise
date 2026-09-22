@@ -278,3 +278,65 @@ export interface AuthoritiesResponse {
   authorities: ElectionAuthority[];
 }
 
+export interface BallotContestCandidate {
+  id: string;
+  name: string;
+  party: string;
+  status: string;
+  officialPhoto?: string;
+  trustTier: TrustTierLevel;
+  verificationLevel: VerificationStatus;
+}
+
+export interface BallotContest {
+  office: string;
+  district?: string;
+  level: 'Federal' | 'State' | 'County' | 'City';
+  candidates: BallotContestCandidate[];
+}
+
+export interface BallotMeasureItem {
+  id: string;
+  number: string;
+  title: string;
+  jurisdiction: string;
+  trustTier: TrustTierLevel;
+  verificationLevel: VerificationStatus;
+}
+
+export interface BallotDropBox {
+  name: string;
+  address: string;
+  hours: string;
+  type: string;
+  lookupUrl?: string;
+}
+
+export interface BallotLookupResponse {
+  queryAddress: string;
+  privacyNotice: string;
+  timestamp: string;
+  jurisdiction: {
+    state: string;
+    stateName: string;
+    county?: string;
+    municipality?: string;
+    congressionalDistrict?: string;
+    legislativeDistrict?: string;
+    councilDistrict?: string;
+    ocdDivisionId?: string;
+  };
+  election: {
+    name: string;
+    date: string;
+    electionType: string;
+    registrationDeadline: string;
+    verifyRegistrationUrl?: string;
+  };
+  contests: BallotContest[];
+  measures: BallotMeasureItem[];
+  dropBox?: BallotDropBox;
+  source: SourceReference;
+}
+
+

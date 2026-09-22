@@ -47,6 +47,14 @@ export function Navbar() {
         {/* Right Actions & Accessibility */}
         <div className="flex items-center gap-3">
           <Link
+            href="/#ballot-lookup"
+            className="hidden sm:inline-flex items-center gap-1.5 text-xs font-bold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 border border-emerald-300 transition-colors py-1.5 px-2.5 rounded-md"
+          >
+            <Vote className="w-3.5 h-3.5 text-emerald-700" />
+            <span>My Ballot</span>
+          </Link>
+
+          <Link
             href="/#trust-model"
             className="hidden lg:inline-flex items-center gap-1.5 text-xs font-semibold text-slate-700 hover:text-blue-700 transition-colors py-1.5 px-2.5 rounded-md hover:bg-slate-100"
           >

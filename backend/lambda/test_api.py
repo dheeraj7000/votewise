@@ -137,5 +137,35 @@ class TestTrustVoteAPI(unittest.TestCase):
         self.assertEqual(body["authorities"][0]["state"], "WA")
         self.assertIn("portalUrls", body["authorities"][0])
 
+    def test_ballot_endpoint_seattle(self):
+        event = {
+            "httpMethod": "GET",
+            "rawPath": "/ballot",
+            "queryStringParameters": {"address": "400 Pine St, Seattle, WA 98101"}
+        }
+        res = lambda_handler(event, None)
+        self.assertEqual(res["statusCode"], 200)
+        body = json.loads(res["body"])
+        self.assertEqual(body["jurisdiction"]["state"], "WA")
+        self.assertEqual(body["jurisdiction"]["municipality"], "City of Seattle")
+        self.assertGreaterEqual(len(body["contests"]), 3)
+        self.assertGreaterEqual(len(body["measures"]), 2)
+        self.assertIn("dropBox", body)
+        self.assertIn("privacyNotice", body)
+
+    def test_ballot_endpoint_nj(self):
+        event = {
+            "httpMethod": "POST",
+            "rawPath": "/ballot",
+            "body": json.dumps({"address": "280 Grove St, Jersey City, NJ 07302"})
+        }
+        res = lambda_handler(event, None)
+        self.assertEqual(res["statusCode"], 200)
+        body = json.loads(res["body"])
+        self.assertEqual(body["jurisdiction"]["state"], "NJ")
+        self.assertIn("Hudson County", body["jurisdiction"]["county"])
+        self.assertGreaterEqual(len(body["contests"]), 1)
+        self.assertIn("dropBox", body)
+
 if __name__ == "__main__":
     unittest.main()

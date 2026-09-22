@@ -1,4 +1,4 @@
-import { Candidate, BallotMeasure, ElectionTopic, SearchResponse, AskResponse, ElectionsResponse, AuthoritiesResponse } from '@/types/election';
+import { Candidate, BallotMeasure, ElectionTopic, SearchResponse, AskResponse, ElectionsResponse, AuthoritiesResponse, BallotLookupResponse } from '@/types/election';
 
 const BASE_API_URL = (process.env.NEXT_PUBLIC_API_URL || '').replace(/\/$/, '');
 const API_PREFIX = BASE_API_URL ? '' : '/api';
@@ -72,3 +72,13 @@ export async function getAuthorities(state?: string): Promise<AuthoritiesRespons
   }
   return res.json();
 }
+
+export async function getBallotByAddress(address: string = ''): Promise<BallotLookupResponse> {
+  const url = `${BASE_API_URL}${API_PREFIX}/ballot?address=${encodeURIComponent(address)}`;
+  const res = await fetch(url, { headers: { 'Accept': 'application/json' } });
+  if (!res.ok) {
+    throw new Error(`Failed to look up ballot: ${res.statusText}`);
+  }
+  return res.json();
+}
+
