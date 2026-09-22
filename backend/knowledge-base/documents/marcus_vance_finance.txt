@@ -1,0 +1,25 @@
+DOCUMENT: FEDERAL ELECTION COMMISSION CAMPAIGN FINANCE DISCLOSURE
+COMMITTEE: MARCUS VANCE FOR SENATE (ID: C00849201)
+OFFICIAL SOURCE: Federal Election Commission (fec.gov)
+VERIFICATION TIER: Tier 1 - Government
+CYCLE: 2024 - 2026 Election Cycle
+LAST REPORTING PERIOD: July Quarterly 2026 (Coverage: 04/01/2026 - 06/30/2026)
+
+FINANCIAL TOTALS (AUDITED FEC SUMMARY):
+- Total Receipts / Raised: $14,250,000.00
+- Total Disbursements / Spent: $9,840,000.00
+- Cash on Hand: $4,410,000.00
+- Outstanding Debts: $0.00
+
+DONOR SECTOR BREAKDOWN:
+1. Small Individual Contributions (< $200 unitemized): $4,210,000 (29.5% of total raised).
+2. Civil Engineering & Heavy Construction PACs and Employees: $2,180,000 (15.3% of total).
+3. Technology & Semiconductor Equipment Manufacturing: $1,940,000 (13.6% of total).
+4. Clean Energy & Renewable Power Generation: $1,650,000 (11.6% of total).
+5. Transportation & Logistics Organized Labor: $1,420,000 (10.0% of total).
+
+MAJOR FEC FILINGS ON RECORD:
+- Form 3 July Quarterly 2026, filed July 15, 2026 (FEC Doc ID: 1823901).
+- Form 3 April Quarterly 2026, filed April 15, 2026 (FEC Doc ID: 1799214).
+- Form 3 Year-End 2025, filed January 31, 2026 (FEC Doc ID: 1744109).
+Public access URL: https://www.fec.gov/data/candidate/S4WA00192/

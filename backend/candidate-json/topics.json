@@ -1,0 +1,53 @@
+[
+  {
+    "id": "education",
+    "name": "Education",
+    "description": "Public school funding formulas, vocational technical training, teacher compensation, and university tuition affordability.",
+    "relatedCandidates": ["marcus-vance", "elena-rostova"],
+    "keyLaws": ["RCW 28A - Common School Provisions", "Public Law 118-42 Microelectronics Training Act"]
+  },
+  {
+    "id": "healthcare",
+    "name": "Healthcare",
+    "description": "Prescription drug pricing transparency, rural hospital solvency, behavioral health crisis centers, and Medicaid access.",
+    "relatedCandidates": ["marcus-vance", "elena-rostova"],
+    "keyLaws": ["S. 3891 Rural Tele-Health Act", "WA Prescription Transparency Act"]
+  },
+  {
+    "id": "transportation",
+    "name": "Transportation & Transit",
+    "description": "Light rail extensions, regional rapid bus networks, highway bridge seismic retrofitting, and port electrification.",
+    "relatedCandidates": ["marcus-vance", "david-chen"],
+    "relatedMeasures": ["measure-102"],
+    "keyLaws": ["Infrastructure Investment & Jobs Act (P.L. 117-58)", "Seattle Prop 102"]
+  },
+  {
+    "id": "economy",
+    "name": "Economy & Jobs",
+    "description": "Domestic microelectronics manufacturing, inflation and consumer protection, small business commercial corridors, and workforce development.",
+    "relatedCandidates": ["marcus-vance", "elena-rostova", "david-chen"],
+    "keyLaws": ["CHIPS & Science Act provisions", "WA Consumer Protection Act"]
+  },
+  {
+    "id": "environment",
+    "name": "Environment & Energy",
+    "description": "Electrical grid hardening, clean energy storage, clean water treatment infrastructure, and flood defense.",
+    "relatedCandidates": ["marcus-vance", "elena-rostova"],
+    "relatedMeasures": ["measure-101"],
+    "keyLaws": ["WA Climate Commitment Act", "Initiative 101"]
+  },
+  {
+    "id": "public-safety",
+    "name": "Public Safety",
+    "description": "Fentanyl interdiction, organized retail crime enforcement, school crossing safety, and specialized behavioral crisis response units.",
+    "relatedCandidates": ["marcus-vance", "elena-rostova", "david-chen"],
+    "keyLaws": ["RCW 10.93 - Law Enforcement Mutual Aid", "Seattle Res 32098"]
+  },
+  {
+    "id": "housing",
+    "name": "Housing & Urban Development",
+    "description": "Middle housing zoning reform, transit-oriented development, affordable housing production, and tenant protections.",
+    "relatedCandidates": ["david-chen"],
+    "keyLaws": ["Seattle CB 120340 Middle Housing Ordinance"]
+  }
+]

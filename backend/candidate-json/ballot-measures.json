@@ -1,0 +1,96 @@
+[
+  {
+    "id": "measure-101",
+    "number": "Initiative 101",
+    "title": "Clean Energy Grid Resiliency and Clean Water Modernization Act",
+    "jurisdiction": "State of Washington",
+    "electionDate": "2026-11-03",
+    "status": "Certified on Statewide Ballot",
+    "summary": "Authorizes $2.5 billion in state general obligation bonds over 10 years to reinforce electrical substation flood defenses, modernize regional high-voltage grid interconnects, and upgrade municipal wastewater treatment facilities.",
+    "yesVoteMeans": "A 'YES' vote approves authorizing $2.5 billion in state general obligation bonds dedicated to public electrical grid reinforcement, battery storage pilots, and clean water treatment upgrades.",
+    "noVoteMeans": "A 'NO' vote maintains current state bond authorization levels and leaves grid resilience upgrades to local utility capital budgets without dedicated state bond financing.",
+    "fiscalImpact": {
+      "totalBondAmount": "$2,500,000,000",
+      "annualDebtService": "~$145 million/year over 25 years",
+      "revenueSource": "Existing state general fund revenues; does NOT create a new tax",
+      "officialSource": "Washington Office of Financial Management Fiscal Note"
+    },
+    "supporters": [
+      {
+        "name": "Washington Clean Energy Alliance",
+        "argument": "Secures essential electric transmission capacity against wildfires and extreme winter storms without raising property taxes.",
+        "source": "State Voters' Pamphlet"
+      },
+      {
+        "name": "Association of Washington Cities",
+        "argument": "Provides crucial infrastructure grants to rural wastewater facilities that cannot afford capital replacements alone.",
+        "source": "State Voters' Pamphlet"
+      }
+    ],
+    "opponents": [
+      {
+        "name": "Taxpayers for Fiscal Prudence",
+        "argument": "General obligation bonds encumber general fund debt capacity that could otherwise fund elementary education.",
+        "source": "State Voters' Pamphlet"
+      }
+    ],
+    "officialDocuments": [
+      {
+        "title": "Secretary of State Official Ballot Title & Explanatory Statement",
+        "url": "https://www.sos.wa.gov/elections/initiatives/i-101-statement.pdf",
+        "organization": "WA Secretary of State",
+        "tier": "Tier 1 - Government"
+      },
+      {
+        "title": "Office of Financial Management Fiscal Impact Statement",
+        "url": "https://ofm.wa.gov/budget/fiscal-notes/i-101-fiscal-note.pdf",
+        "organization": "WA Office of Financial Management",
+        "tier": "Tier 1 - Government"
+      }
+    ],
+    "verificationLevel": "Government Verified",
+    "trustTier": "Tier 1 - Government",
+    "lastUpdated": "2026-09-01"
+  },
+  {
+    "id": "measure-102",
+    "number": "Proposition 102",
+    "title": "Regional Rapid Transit Expansion and Safe Crossings Levy",
+    "jurisdiction": "King County / Sound Transit Service Area",
+    "electionDate": "2026-11-03",
+    "status": "Certified on County Ballot",
+    "summary": "Renews and expands the 0.15% sales tax and creates an annual $25 motor vehicle excise tax to fund 4 new rapid bus lines, 12 grade-separated pedestrian overpasses, and discounted youth transit passes.",
+    "yesVoteMeans": "A 'YES' vote approves a 0.15% local sales tax renewal and $25 vehicle fee to fund East-West rapid bus lines and pedestrian safety overpasses.",
+    "noVoteMeans": "A 'NO' vote allows the existing transit levy to expire in 2027, reducing scheduled regional feeder bus expansion.",
+    "fiscalImpact": {
+      "annualRevenue": "~$82 million/year for 8 years",
+      "costPerHousehold": "Estimated $34/year for average household",
+      "officialSource": "King County Elections Fiscal Analysis"
+    },
+    "supporters": [
+      {
+        "name": "Transit for All Coalition",
+        "argument": "Connects underserved residential neighborhoods to hospital centers and light rail terminals.",
+        "source": "King County Voters' Pamphlet"
+      }
+    ],
+    "opponents": [
+      {
+        "name": "Fair Car Tax Association",
+        "argument": "Vehicle excise fees place a disproportionate burden on working commuter families who drive to jobs without transit access.",
+        "source": "King County Voters' Pamphlet"
+      }
+    ],
+    "officialDocuments": [
+      {
+        "title": "King County Elections Measure Ordinance 19741",
+        "url": "https://kingcounty.gov/elections/ballot-measures/prop-102.pdf",
+        "organization": "King County Elections",
+        "tier": "Tier 1 - Government"
+      }
+    ],
+    "verificationLevel": "Government Verified",
+    "trustTier": "Tier 1 - Government",
+    "lastUpdated": "2026-09-01"
+  }
+]
