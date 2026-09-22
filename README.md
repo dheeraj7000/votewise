@@ -127,14 +127,27 @@ python3 backend/knowledge-base/sync_to_s3.py \
   --region us-west-2
 ```
 
-### Step 3: Deploy Frontend to AWS Amplify
-1. Connect your repository (`votewise`) in the **AWS Amplify Console**.
-2. Set the build root directory to `frontend`.
-3. Configure the environment variable:
+### Step 3: Deploy Frontend to AWS Amplify / CloudFront
+1. Connect your repository (`votewise`) in the **AWS Amplify Console** or deploy to S3 + CloudFront.
+2. Configure the environment variable:
    ```env
-   NEXT_PUBLIC_API_URL=https://xyz.execute-api.us-west-2.amazonaws.com/dev
+   NEXT_PUBLIC_API_URL=https://hm02wlb4x4.execute-api.us-west-2.amazonaws.com/dev
    ```
-4. Deploy the application. Amplify provisions automated HTTPS and CloudFront CDN distribution.
+
+---
+
+## 🌐 Live AWS Production Deployment
+
+TrustVote is actively deployed and operational on AWS in region `us-west-2`:
+
+| Service | Endpoint / Link | Description |
+| :--- | :--- | :--- |
+| **Frontend Web Portal** | [http://trustvote-frontend-731732766290-us-west-2.s3-website-us-west-2.amazonaws.com](http://trustvote-frontend-731732766290-us-west-2.s3-website-us-west-2.amazonaws.com) | S3-hosted Next.js 15 Civic Web Portal |
+| **CloudFront CDN** | `https://d1pflaowvgvxal.cloudfront.net` | Global edge caching & TLS distribution |
+| **API Gateway (HTTP API)** | `https://hm02wlb4x4.execute-api.us-west-2.amazonaws.com/dev` | Serverless API router (`/search`, `/candidate/{id}`, `/elections`, `/ask`) |
+| **AWS Lambda Backend** | Python 3.12 Serverless Handler | Bedrock RAG, data routing, Democracy Works integration |
+| **Amazon S3 Document Lake** | `s3://trustvote-verified-documents-731732766290-dev` | Verified election documents & metadata |
+| **Amazon DynamoDB** | `TrustVote-Profiles-dev` | Candidate and ballot proposition dossiers |
 
 ---
 

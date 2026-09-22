@@ -1,0 +1,18 @@
+DOCUMENT: OFFICIAL BALLOT TITLE AND EXPLANATORY STATEMENT - INITIATIVE 101
+SOURCE: Washington Secretary of State & Office of Financial Management
+VERIFICATION TIER: Tier 1 - Government
+JURISDICTION: State of Washington (General Election Ballot 2026)
+LAST UPDATED: 2026-09-01
+
+BALLOT TITLE:
+Initiative Measure No. 101 concerns state general obligation bonds for clean energy grid resiliency and clean water modernization. This measure would authorize the sale of $2.5 billion in general obligation bonds over ten fiscal years to finance electrical transmission hardening, microgrid substations against flood and wildfire risks, and rural municipal wastewater treatment facility modernizations.
+
+FISCAL IMPACT SUMMARY (OFM AUDIT):
+- Principal Bond Authorization: $2,500,000,000.
+- Estimated Total Interest Costs (25-year maturity): $1,125,000,000.
+- Annual Debt Service: Approximately $145 million annually paid from existing state general fund revenues.
+- Direct Tax Impact: Does NOT establish or increase any sales, property, or income tax rates.
+
+PRO AND CON SUMMARY FROM OFFICIAL STATE VOTERS' PAMPHLET:
+- Statement For: The Washington Clean Energy Alliance and Association of Washington Cities assert that failing electrical substations and unhardened transmission lines threaten hospital and emergency response systems during extreme climate events. Bond financing spreads infrastructure modernization costs over thirty years.
+- Statement Against: Taxpayers for Fiscal Prudence argues that dedicating $145 million annually from general fund revenues crowds out discretionary funding for K-12 basic education and law enforcement pensions without generating new state revenues.

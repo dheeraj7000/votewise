@@ -25,7 +25,20 @@ CLAUDE_3_5_SONNET_ARN = os.environ.get(
 KNOWLEDGE_BASE_ID = os.environ.get("BEDROCK_KB_ID", "")
 AWS_REGION = os.environ.get("AWS_REGION", "us-west-2")
 
-DOCUMENTS_DIR = os.path.join(os.path.dirname(__file__), "..", "knowledge-base", "documents")
+def _find_docs_dir() -> str:
+    possible_dirs = [
+        os.path.join(os.path.dirname(__file__), "..", "knowledge-base", "documents"),
+        os.path.join(os.path.dirname(__file__), "knowledge-base", "documents"),
+        os.path.join("/var/task", "knowledge-base", "documents"),
+        os.path.join("/var/task", "documents"),
+        os.path.join(os.getcwd(), "backend", "knowledge-base", "documents"),
+    ]
+    for d in possible_dirs:
+        if os.path.exists(d):
+            return d
+    return possible_dirs[0]
+
+DOCUMENTS_DIR = _find_docs_dir()
 
 class BedrockService:
     def __init__(self):

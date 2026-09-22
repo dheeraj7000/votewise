@@ -30,6 +30,8 @@ ENV/
 
 # SAM / AWS
 .aws-sam/
+infra/packaged.yaml
+*.packaged.yaml
 
 # IDE / OS
 .DS_Store

@@ -8,9 +8,21 @@ import json
 import re
 from typing import Dict, Any, List, Optional
 
-CANDIDATES_PATH = os.path.join(os.path.dirname(__file__), "..", "candidate-json", "candidates.json")
-MEASURES_PATH = os.path.join(os.path.dirname(__file__), "..", "candidate-json", "ballot-measures.json")
-TOPICS_PATH = os.path.join(os.path.dirname(__file__), "..", "candidate-json", "topics.json")
+def _find_data_path(subpath: str) -> str:
+    possible_paths = [
+        os.path.join(os.path.dirname(__file__), "..", "candidate-json", subpath),
+        os.path.join(os.path.dirname(__file__), "candidate-json", subpath),
+        os.path.join("/var/task", "candidate-json", subpath),
+        os.path.join(os.getcwd(), "backend", "candidate-json", subpath),
+    ]
+    for p in possible_paths:
+        if os.path.exists(p):
+            return p
+    return possible_paths[0]
+
+CANDIDATES_PATH = _find_data_path("candidates.json")
+MEASURES_PATH = _find_data_path("ballot-measures.json")
+TOPICS_PATH = _find_data_path("topics.json")
 
 class DataService:
     def __init__(self):

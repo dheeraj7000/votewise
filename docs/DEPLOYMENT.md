@@ -113,3 +113,21 @@ cd frontend
 npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) to explore the interactive dashboard.
+
+---
+
+## 6. Current Live AWS Deployment Details
+
+The system is deployed and operating live in AWS Region `us-west-2`:
+
+| Component | AWS Resource | Endpoint / Identifier |
+| :--- | :--- | :--- |
+| **API Gateway HTTP API** | `TrustVoteHttpApi` | `https://hm02wlb4x4.execute-api.us-west-2.amazonaws.com/dev` |
+| **Backend Lambda Router** | `TrustVoteApiFunction` (Python 3.12) | `trustvote-stack-TrustVoteApiFunction-...` |
+| **DynamoDB Profiles** | `TrustVote-Profiles-dev` | `arn:aws:dynamodb:us-west-2:731732766290:table/TrustVote-Profiles-dev` |
+| **Verified Documents Lake** | Amazon S3 Bucket | `s3://trustvote-verified-documents-731732766290-dev` |
+| **Frontend Web Hosting** | Amazon S3 Static Website | `http://trustvote-frontend-731732766290-us-west-2.s3-website-us-west-2.amazonaws.com` |
+| **Edge CDN** | Amazon CloudFront | `https://d1pflaowvgvxal.cloudfront.net` (Dist ID: `EA0UU59MKZAL8`) |
+| **AWS Amplify App** | Amplify Web Hosting | `d1rrdkuz7ltlxo` (`d1rrdkuz7ltlxo.amplifyapp.com`) |
+| **Democracy Works API** | Elections & Authority Service | Integrated with live API endpoints at `/elections` and `/authorities` |
+

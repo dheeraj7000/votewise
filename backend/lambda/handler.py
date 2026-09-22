@@ -38,6 +38,29 @@ def lambda_handler(event: Dict[str, Any], context: Any) -> Dict[str, Any]:
     http_method = event.get("httpMethod") or event.get("requestContext", {}).get("http", {}).get("method", "GET")
     raw_path = event.get("rawPath") or event.get("path") or "/"
     
+    # Strip stage prefix if present (e.g., /dev/search -> /search)
+    stage = event.get("requestContext", {}).get("stage")
+    if stage and stage != "$default" and raw_path.startswith(f"/{stage}"):
+        raw_path = raw_path[len(f"/{stage}"):] or "/"
+    elif raw_path.startswith("/dev/"):
+        raw_path = raw_path[4:]
+    elif raw_path == "/dev":
+        raw_path = "/"
+    elif raw_path.startswith("/prod/"):
+        raw_path = raw_path[5:]
+    elif raw_path == "/prod":
+        raw_path = "/"
+    elif raw_path.startswith("/staging/"):
+        raw_path = raw_path[8:]
+    elif raw_path == "/staging":
+        raw_path = "/"
+
+    # Strip /api prefix if present (e.g., /api/search -> /search)
+    if raw_path.startswith("/api/"):
+        raw_path = raw_path[4:]
+    elif raw_path == "/api":
+        raw_path = "/"
+    
     # Handle CORS preflight
     if http_method == "OPTIONS":
         return make_response(200, {"status": "ok"})

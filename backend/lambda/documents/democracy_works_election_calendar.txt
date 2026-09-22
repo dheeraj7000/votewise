@@ -1,0 +1,78 @@
+DEMOCRACY WORKS ELECTIONS API & VOTING RULES DIRECTORY
+Source: Democracy Works Elections API (https://www.democracy.works/elections-api)
+In Partnership with State Election Authorities: Washington, New Jersey, California
+Verification Tier: Tier 1 - Government (Authoritative Election Partner)
+Last Verified: September 2026
+
+======================================================================
+1. WASHINGTON STATE GENERAL ELECTION (OCD-ID: ocd-division/country:us/state:wa)
+======================================================================
+Election Date: Tuesday, November 3, 2026
+Election Type: General & Congressional Election
+Jurisdiction: State of Washington (All 39 Counties)
+
+VOTER REGISTRATION DEADLINES:
+- Online Registration Deadline: October 26, 2026 (8 days prior to Election Day) via https://voter.votewa.gov or https://olvr.votewa.gov.
+- Mail-in Registration Deadline: Received by October 26, 2026.
+- In-Person Registration Deadline: Voters may register and cast an in-person ballot up to 8:00 PM PT on Election Day, November 3, 2026, at their designated County Elections Department or Voting Center.
+
+VOTING PROCESS & BALLOT RETURN:
+- Washington conducts all elections entirely by mail.
+- Official mail-in ballots are mailed to all registered active voters starting October 16, 2026 (18 days before Election Day).
+- Official Drop Boxes: Available 24 hours a day until 8:00 PM PT on Election Day, November 3, 2026. No postage required for drop boxes.
+- Mail Return Postmark: Must be postmarked no later than Election Day, November 3, 2026.
+- Voter Verification: Signatures on ballot return envelopes are manually verified against the registered signature on file.
+
+OFFICIAL STATE ELECTION AUTHORITY:
+Agency: Washington Office of the Secretary of State - Elections Division
+Address: PO Box 40229, Olympia, WA 98504
+Telephone: (800) 448-4881 | Email: elections@sos.wa.gov
+Official Portal: https://www.sos.wa.gov/elections
+
+======================================================================
+2. NEW JERSEY GENERAL ELECTION (OCD-ID: ocd-division/country:us/state:nj)
+======================================================================
+Election Date: Tuesday, November 3, 2026
+Election Type: General Election
+Jurisdiction: State of New Jersey (All 21 Counties)
+
+VOTER REGISTRATION DEADLINES:
+- Voter Registration Deadline (Online, Mail, In-Person): October 13, 2026 (21 days prior to Election Day).
+- Online Registration Portal: https://voter.svrs.nj.gov/register
+- Voter Status Verification: https://voter.svrs.nj.gov/registration-check
+
+EARLY VOTING & ABSENTEE DEADLINES:
+- In-Person Early Voting Window: Saturday, October 24, 2026 through Sunday, November 1, 2026.
+- Mail-in Ballot Application Deadline (by Mail): Must be received by County Clerk by October 27, 2026.
+- Mail-in Ballot Application Deadline (In-Person at County Clerk): November 2, 2026 by 3:00 PM.
+- Ballot Return Deadline: Drop box deposit by 8:00 PM on November 3, 2026, or postmarked by November 3, 2026 (received within 144 hours).
+- Election Day Polling Hours: 6:00 AM to 8:00 PM ET.
+
+OFFICIAL STATE ELECTION AUTHORITY:
+Agency: New Jersey Department of State - Division of Elections
+Address: 20 West State Street, 4th Floor, Trenton, NJ 08625
+Telephone: (609) 292-3760 | Email: feedback@sos.nj.gov
+Official Portal: https://nj.gov/state/elections/
+
+======================================================================
+3. CALIFORNIA GENERAL ELECTION (OCD-ID: ocd-division/country:us/state:ca)
+======================================================================
+Election Date: Tuesday, November 3, 2026
+Election Type: General Election
+Jurisdiction: State of California (All 58 Counties)
+
+VOTER REGISTRATION DEADLINES:
+- Standard Registration Deadline (Online & Postmark): October 19, 2026 (15 days prior to Election Day).
+- Same-Day / Conditional Registration: Available from October 20, 2026 through November 3, 2026 at any county elections office or vote center.
+- Online Portal: https://registertovote.ca.gov
+
+VOTING PROCESS:
+- Every active registered voter receives a vote-by-mail ballot starting October 5, 2026.
+- Return Options: By mail (postmarked on or before November 3, 2026), secure drop box, or in-person vote center by 8:00 PM PT on November 3, 2026.
+- Polling Place Hours: 7:00 AM to 8:00 PM PT.
+
+OFFICIAL STATE ELECTION AUTHORITY:
+Agency: California Secretary of State - Elections Division
+Address: 1500 11th Street, 5th Floor, Sacramento, CA 95814
+Telephone: (800) 345-VOTE (8683) | Email: elections@sos.ca.gov
+Official Portal: https://www.sos.ca.gov/elections
